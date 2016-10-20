@@ -24,11 +24,15 @@ h1 {
 nav {
   margin: 0;
   text-align: center;
+  padding: 0 0 .4em;
+}
 
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 li {
-  margin: 0;
   text-align: center;
   list-style-type: none;
   display:inline-block;
@@ -46,7 +50,7 @@ a {
   display:inline-block;
   max-width: 8em;
   background-color: #b2a212;
-  padding: .5em;
+  padding: .5em .3em;
   border-radius: 5px;
 }
 
@@ -83,11 +87,11 @@ main {
 }
 
 figure  p {
-  margin: 0;
+  margin: 0.3em;
   text-align: left;
   font-family: "Georgia", serif;
-  font-size: .75rem;
-  padding:.2em .5em .3em;
+  font-size: 1.125;
+  padding: 10px;
 }
 
 img {
