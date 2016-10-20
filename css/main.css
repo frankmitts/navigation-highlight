@@ -22,6 +22,7 @@ h1 {
 }
 
 nav {
+  margin: 0;
   text-align: center;
 
 }
@@ -35,6 +36,7 @@ margin: .3em;
 }
 
 a {
+    margin: 0;
     font-family: "Georgia", serif;
     list-style-type: none;
     text-decoration: none;
@@ -57,17 +59,10 @@ a:hover {
   border-radius: 5px;
 }
 
-.home-h2 {
-margin: 0;
-color:#cc1465;
-text-align: left;
-font-size:3rem;
-}
-
 h2 {
 margin: 0;
 color:#cc1465;
-text-align: left;
+text-align:left;
 font-size:3rem;
 }
 
@@ -88,12 +83,14 @@ main {
   margin:
 }
 
-figure {
-  text-align: center;
+figure  p {
+  margin: 0;
+  text-align: left;
   font-family: "Georgia", serif;
+  font-size: .75rem;
+  padding:.2em .5em .3em;
 }
 
 img {
-  image-resolution: 100%;
-  text-align: center;
+  margin: 0;
 }
