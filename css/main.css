@@ -1,0 +1,82 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  font-family: "Sigmar One", cursive;
+  background-color: #ffe500;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #cc1465;
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+
+}
+
+li {
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  display:inline-block;
+margin: .3em;
+}
+
+a {
+    font-family: "Georgia", serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.825rem;
+    line-height: 1rem;
+    display:inline-block;
+    max-width: 8em;
+    background-color: #b2a212;
+    padding: .5em;
+    border-radius: 5px;
+
+}
+
+a:hover {
+  margin: 0;
+  background-color: #cc1465;
+  color: #fff;
+  padding: .5em;
+  border-radius: 5px;
+}
+
+h2 {
+margin: 0;
+color:#cc1465;
+text-align: left;
+font-size:3rem;
+}
+
+.body-text {
+  font-family: "Georgia", serif;
+  font-size:1.875rem;
+}
+
+footer {
+  font-family: "Georgia", serif;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+main {
+  background-color: #fff;
+  padding: 0 10px;
+  margin:
+}
