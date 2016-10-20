@@ -32,23 +32,22 @@ li {
   text-align: center;
   list-style-type: none;
   display:inline-block;
-margin: .3em;
+  margin: .3em;
 }
 
 a {
-    margin: 0;
-    font-family: "Georgia", serif;
-    list-style-type: none;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.825rem;
-    line-height: 1rem;
-    display:inline-block;
-    max-width: 8em;
-    background-color: #b2a212;
-    padding: .5em;
-    border-radius: 5px;
-
+  margin: 0;
+  font-family: "Georgia", serif;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.825rem;
+  line-height: 1rem;
+  display:inline-block;
+  max-width: 8em;
+  background-color: #b2a212;
+  padding: .5em;
+  border-radius: 5px;
 }
 
 a:hover {
@@ -60,10 +59,10 @@ a:hover {
 }
 
 h2 {
-margin: 0;
-color:#cc1465;
-text-align:left;
-font-size:3rem;
+  margin: 0;
+  color:#cc1465;
+  text-align:left;
+  font-size:3rem;
 }
 
 .body-text {
@@ -80,7 +79,7 @@ footer {
 main {
   background-color: #fff;
   padding: 0 10px;
-  margin:
+  margin:0;
 }
 
 figure  p {
@@ -93,4 +92,6 @@ figure  p {
 
 img {
   margin: 0;
+  display: block;
+  width: 100%;
 }
