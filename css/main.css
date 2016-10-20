@@ -79,7 +79,7 @@ h2 {
 
 .body-text {
   font-family: "Georgia", serif;
-  font-size:1.875rem;
+  font-size:1.125rem;
   color: #2f2d13;
 }
 
@@ -89,7 +89,7 @@ footer {
   font-size: .75rem;
   color: #2f2d13;
   background-color: #ffe500;
-  padding:2px;
+  padding:10px;
 }
 
 body {
