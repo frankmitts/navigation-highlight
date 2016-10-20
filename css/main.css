@@ -74,7 +74,7 @@ h2 {
   color:#b20953;
   text-align:left;
   font-size:1.875rem;
-  padding: 12px 5px;
+  padding: 10px 5px;
 }
 
 .body-text {
@@ -93,7 +93,6 @@ footer {
 }
 
 body {
-  background-color: #fff;
   padding: 0;
   margin:0;
 }
@@ -110,4 +109,9 @@ img {
   margin: 0;
   display: block;
   width: 100%;
+}
+
+main {
+  background-color: #fff;
+  padding: 3px;
 }
