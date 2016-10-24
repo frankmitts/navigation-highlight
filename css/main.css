@@ -7,7 +7,6 @@
 html {
   box-sizing: border-box;
   font-family: "Sigmar One", cursive;
-  background-color: #ffe500;
 }
 
 *, *::before, *::after {
@@ -20,7 +19,7 @@ h1 {
   font-size: 3rem;
   color: #b20953;
   margin: 0;
-  padding: 0 0 .2em;
+  padding: .002em 0em .2em;
 }
 
 nav {
@@ -37,7 +36,7 @@ ul {
 li {
   text-align: center;
   list-style-type: none;
-  display:inline-block;
+  display: inline-block;
   margin: 0;
 }
 
@@ -47,14 +46,14 @@ header {
 
 a {
   margin: 0;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   list-style-type: none;
   text-decoration: none;
   color: #fff;
   font-size: 1.125rem;
   font-weight: bold;
   line-height: 1rem;
-  display:inline-block;
+  display: inline-block;
   max-width: 8em;
   background-color: #b2a212;
   padding: .5em;
@@ -75,48 +74,49 @@ a:hover {
 
 h2 {
   margin: 0;
-  color:#b20953;
-  text-align:left;
-  font-size:1.875rem;
+  color: #b20953;
+  text-align: left;
+  font-size: 1.875rem;
   padding: 10px 5px;
 }
 
 .body-text {
-  font-family: "Georgia", serif;
-  font-size:1.125rem;
+  font-family: Georgia, serif;
+  font-size: 1.125rem;
   color: #2f2d13;
 }
 
 footer {
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   text-align: center;
   font-size: .75rem;
   color: #2f2d13;
   background-color: #ffe500;
-  padding:10px;
+  padding: 15px;
 }
 
 body {
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 
-figure  p {
+figure p {
   margin: 0;
   text-align: left;
-  font-family: "Georgia", serif;
-  font-size:.75rem;
+  font-family: Georgia, serif;
+  font-size: 1.125rem;
   padding: 0;
+  color: #2f2d13;
+}
+
+main {
+  background-color: #fff;
+  padding: 3.9px;
 }
 
 img {
   padding: 0;
   margin: 0;
   display: block;
-  width:110%;
-}
-
-main {
-  background-color: #fff;
-  padding: 3.9px;
+  width: 100%;
 }
